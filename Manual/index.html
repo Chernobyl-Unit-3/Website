@@ -139,6 +139,14 @@
             margin-bottom: 30px;
         }
 
+        .figure-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            display: block;
+        }
+
         .figure-caption {
             font-style: italic;
             text-align: center;
@@ -234,10 +242,22 @@
 
     <div id="list-figures" class="figures">
         <h2>List of Figures</h2>
-        <p>Figure 1. Turbine Control Panel</p>
-        <p>Figure 2. Electrical Panel</p>
-        <p>Figure 3. SIUB Pult</p>
-        <p>Figure 4. SIUR Pult</p>
+        <div class="figure-container">
+            <p>Figure 1. Turbine Control Panel</p>
+            <img src="turbinepanel.jpg" alt="Turbine Control Panel" />
+        </div>
+        <div class="figure-container">
+            <p>Figure 2. Electrical Panel</p>
+            <img src="elecpanel.jpg" alt="Electrical Panel" />
+        </div>
+        <div class="figure-container">
+            <p>Figure 3. SIUB Pult</p>
+            <img src="siubpult.jpg" alt="SIUB Pult" />
+        </div>
+        <div class="figure-container">
+            <p>Figure 4. SIUR Pult</p>
+            <img src="siurpanel.jpg" alt="SIUR Pult" />
+        </div>
     </div>
 
     <h2 id="abbreviations">List of Accepted Abbreviations</h2>
